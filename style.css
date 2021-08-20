@@ -1,0 +1,52 @@
+.container {
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+  width: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.contact p {
+  line-height: 0.25em;
+  text-align: center;
+}
+
+div.contact {
+  border-bottom: 1px solid grey;
+  width: auto;
+}
+
+.skills,
+.education,
+.experience,
+.referrence {
+  padding: 10px 10px;
+  margin-left: 30px;
+}
+
+img {
+  margin-top: 10px;
+  width: 120px;
+}
+
+.image {
+  width: 80px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 900px) {
+  .container {
+    background-color: blue;
+  }
+  h1,
+  h4 {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  img {
+    width: 70px;
+  }
+  .image {
+    width: 0px;
+  }
+}
